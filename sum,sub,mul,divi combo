@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int,num1,num2,sum,sub,mul,divi;
+num1=10;
+num2=2;
+sum=num1+num2;
+sub=num1-num2;
+mul=num1*num2;
+divi=num1/divi2;
+printf("%d+%d=%d",num1,num2,sum);
+printf("%d-%d=%d",num1,num2,sub);
+printf("%d*%d=%d",num1,num2,mul);
+printf("%d/%d=%d",num1,num2,divi);
