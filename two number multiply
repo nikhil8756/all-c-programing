@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main ()
+{
+int main num1,num2,mul;
+num1=10;
+num2=20;
+mul=num1*num2;
+printf("%d*%d=%d",num1,num2);
+return 0;
+}
