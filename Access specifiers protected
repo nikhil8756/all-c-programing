@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+class A
+{
+	private:
+		int a;
+		protected:
+			int b;
+			public:
+				int c;
+				void setvalue(int a,int b,int c)
+				{
+					this->a=a;
+					this->b=b;
+					this->c=c;
+				}
+			};
+			class B : public A
+			{
+				public:
+					void getvalue()
+					{
+						cout<<"the value of b="<<b<<endl;
+						cout<<"the value of c="<<c<<endl;
+					}
+			};
+			int main()
+			{
+				B obj;
+				obj.setvalue(10,20,30);
+				obj.getvalue();
+				return 0;
+			}
